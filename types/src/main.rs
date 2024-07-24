@@ -41,6 +41,8 @@ fn main() {
 
     let a: [i32; 5] = [1, 2, 3, 4, 5];
 
+    let a = [3; 5];
+
     let x: (i32, f64, u8) = (500, 6.4, 1);
 
     let five_hundred = x.0;
