@@ -15,6 +15,6 @@ fn print_labels(x: i32, y: char) {
     println!("Labels: {x} {y}");
 }
 
-fn plus_one() {
+fn plus_one(x: i32) -> i32 {
     x + 1
 }
